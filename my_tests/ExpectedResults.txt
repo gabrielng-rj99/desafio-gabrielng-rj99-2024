@@ -1,0 +1,35 @@
+HIPOPOTAMO 1 {
+'recintosViaveis': [
+'Recinto 3 (espaço livre: 0 total: 7)',
+'Recinto 4 (espaço livre: 4 total: 8)']}
+--------------------------------------------------
+MACACO 2 {
+'recintosViaveis': [
+'Recinto 1 (espaço livre: 5 total: 10)',
+'Recinto 2 (espaço livre: 3 total: 5)',
+'Recinto 3 (espaço livre: 2 total: 7)']}
+--------------------------------------------------
+LEOPARDO 2 {'erro':
+'Não há recinto viável'}
+--------------------------------------------------
+CROCODILO 2 {
+'recintosViaveis':['Recinto 4 (espaço livre: 2 total: 8)']}
+--------------------------------------------------
+GAZELA 2 {
+'recintosViaveis': [
+'Recinto 1 (espaço livre: 2 total: 10)',
+'Recinto 3 (espaço livre: 1 total: 7)']}
+--------------------------------------------------
+MACACO 10 {'erro':
+'Não há recinto viável'}
+--------------------------------------------------
+LEAO 2 {'recintosViaveis': [
+'Recinto 5 (espaço livre: 0 total: 9)']}
+--------------------------------------------------
+MACACO 1 {'recintosViaveis': [
+'Recinto 1 (espaço livre: 6 total: 10)',
+'Recinto 3 (espaço livre: 3 total: 7)']}
+--------------------------------------------------
+
+Expected: "Recinto 3 (espaço livre: 2 total: 7)"
+Received: "Recinto 3 (espaço livre: 3 total: 7)"
