@@ -1,0 +1,84 @@
+{
+    "biomes": [
+        {
+            "id": 1,
+            "name": "savana",
+            "total_size": 10,
+            "animals": {"4": 3}
+        },
+    
+        {
+            "id": 2,
+            "name": "floresta",
+            "total_size": 5,
+            "animals": {}
+        },
+    
+        {
+            "id": 3,
+            "name": "savana e rio",
+            "total_size": 7,
+            "animals": {"5": 1}
+        },
+    
+        {
+            "id": 4,
+            "name": "rio",
+            "total_size": 8,
+            "animals": {}
+        },
+    
+        {
+            "id": 5,
+            "name": "savana",
+            "total_size": 9,
+            "animals": {"1": 1}
+        }
+    ],
+
+    "animals": [
+        {
+            "id": 1,
+            "name": "LEAO",
+            "size": 3,
+            "biomes": ["savana"],
+            "carnivore": true
+        },
+
+        {
+            "id": 2,
+            "name": "LEOPARDO",
+            "size": 2,
+            "biomes": ["savana"],
+            "carnivore": true
+        },
+        {
+            "id": 3,
+            "name": "CROCODILO",
+            "size": 3,
+            "biomes": ["rio"],
+            "carnivore":true
+        },
+        {
+            "id": 4,
+            "name": "MACACO",
+            "size": 1,
+            "biomes": ["savana", "floresta"],
+            "carnivore": false
+        },
+        {
+            "id": 5,
+            "name": "GAZELA",
+            "size": 2,
+            "biomes": ["savana"],
+            "carnivore": false
+        },
+        {
+            "id": 6,
+            "name": "HIPOPOTAMO",
+            "size": 4,
+            "biomes": ["savana", "rio"],
+            "carnivore": false
+        }
+    ]
+}
